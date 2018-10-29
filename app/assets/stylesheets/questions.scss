@@ -1,0 +1,40 @@
+// Place all the styles related to the questions controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+h1 {
+  margin: 20px;
+  padding: 20px;
+}
+
+.btn {
+  background-color: #337AB7;
+  color: white;
+}
+
+.container {
+  width: 100vw;
+}
+
+#form-instruction {
+  font-size: 15px;
+}
+
+.container{
+  margin: 20px;
+  padding: 15px;
+
+}
+
+.container.user {
+  border-left: 10px solid #DDDDDD;
+}
+
+.container.coach {
+  background-color: #FFFFE1;
+  border-left: 10px solid #DDDDDD;
+}
+
+.link {
+  font-size: 15px;
+}

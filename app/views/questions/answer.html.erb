@@ -1,0 +1,18 @@
+<h1 class="text-center">STUPID COACHING</h1>
+
+
+<div class="container user">
+  <p><%= @question %></p>
+  <p><em>- Your question</em></p>
+</div>
+
+<div class="container coach">
+  <p><%= @reply_question %></p>
+  <p><%= @reply_great %></p>
+  <p><%= @reply_rest %></p>
+  <p><em>- Your coach</em></p>
+</div>
+
+<div class="container link">
+  <%= link_to "Ask more questions", ask_path %>
+</div>
